@@ -47,12 +47,17 @@ your_gmail = Your gmail address
 email_subject = Subject of the email
 
 To obtain playlists with contact information, run Get_Playlist_Contact_Info.py
+
 Notice, that one contact can own multiple playlists, and those duplicates aren't filtered
+
 Make sure to go through the resultant csv and select which playlist fits you the most, delete the rest
 
 To send emails, set up your templates in Templates.odf (A few been already provided)
+
 Then follow the steps here to obtain Google Oauth: https://pypi.org/project/simplegmail/
+
 Then run Automailer.py
+
 Double check your csvs, and exercise caution as its very easy to spam someone and get your gmail priviligies revoked
 
 ### Features
